@@ -1,0 +1,271 @@
+html {
+ 
+ border: 5px solid #9ca92680 ;
+
+
+  
+  
+	
+	
+}
+
+
+
+#contenu{
+	box-sizing: border-box;
+	display:inline-block;
+	width:100%;
+}
+
+.comparatif {
+    width: 20%;
+    float: left;
+    padding: 15px;
+    border: 2px solid #cdd492b3
+}
+.info_banque {
+    width: 70%;
+    float: left;
+    padding: 15px;
+    border: 3px solid white;
+}
+#logo{
+	width:20%;
+	height:130px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #3339;
+	display:inline-block;
+	width:60%;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+   cursor:pointer;
+}
+
+.active {
+    background-color: #9CA926;
+}
+.bank_grid{
+	  background-color:#9ca92633;
+	  margin:10px;
+	  display:inline-block;
+	  width:100%;
+	  padding:10px;
+	  
+}
+section{
+    background-color: white;
+   
+    margin-top: 10px ; 	
+	
+}  
+nav{
+background-color:white;
+}
+header{
+	margin: 0px 0px 0px 0px;
+	
+}
+
+footer {
+	text-align:center;
+	color:black;
+}
+
+
+
+
+h1 {
+color:rgb(33, 62, 123);
+
+font-family:roboto;		
+margin-left:100px;
+}
+h2 {
+font-weight: bold;	
+	
+	
+}
+
+
+
+ 
+#slider {
+	overflow: hidden;
+	width:80%;
+	height:250px;
+	margin-left:10%;
+}
+
+@keyframes slider {
+	0% { left: 0; }
+	30% { left: 0; }
+	33% { left: -100%; }
+	63% { left: -100%; }
+	66% { left: -200%; }
+	95% { left: -200%; }
+	100% { left: 0; }
+}
+#slider figure {
+	width:300%;
+	position: relative;
+	animation: 9s slider infinite;
+}
+
+#slider figure:hover {
+	/*animation-play-state: paused; enable for pause on hover*/
+
+}
+#slider figure img {
+	width: 33.333333333%;
+	height : 100%;
+	float: left;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+	border-bottom:2px solid white;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+	border-bottom:2px solid white;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+
+.filtre{
+	background-color:#9ca92633;
+	min-height:150px;
+	padding:10px;
+	margin:10px;
+}
+.filtre h1{
+	margin-left:0px;
+	word-wrap:break-word;
+}
+.trie h1{
+	margin-left:0px;
+	word-wrap:break-word;
+}
+
+
+.trie{
+	background-color:#9ca92633;
+    min-height:150px;
+	padding:10px;
+	margin:10px;
+}
+
+button[type=button], button[type=submit], button[type=reset]{
+	background-color: #B8B9B5;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #B8B9B5;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+input[type=text],input[type=password]{
+    width: 50%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+	margin :10px;
+}
+#pres{
+		background-color:#9ca92633;
+	
+}
+
+.select_detail{
+	
+	width:70%;
+}
+.select_detail1{
+	
+	width:70%;
+}
+
+
+.comparatif ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    background-color: #f1f1f1;
+   
+    height: 100%;
+    overflow: auto;
+}
+
+.comparatif li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.comparatif li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.comparatif li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+.select{
+	
+	width: 50%;
+	display:block;
+	margin-bottom: 40px;
+}
+
+.input_forms{
+	
+	border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+.prestation_div{
+	margin:20px;
+	padding:20px;
+}
+.lien{
+	
+	margin-bottom:0px;
+}
